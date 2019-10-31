@@ -1,0 +1,37 @@
+{
+    "name": "Project Overlay Banner",
+    "description": "A REDCap module to display a temporary overlay banner on a project to alert users that it is a training or other non-production project. This module is designed to be enabled and configured at the project-level where it is needed.",
+    "namespace": "POB\\ExternalModule",
+    "documentation": "README.md",
+    "framework-version": 3,
+    "permissions": [
+        "redcap_every_page_top"
+    ],
+    "authors": [
+        {
+            "name": "Kyle Chesney",
+            "email": "kyle.chesney@ufl.edu",
+            "institution": "University of Florida - CTSI"
+        },
+        {
+            "name": "Taryn Stoffs",
+            "email": "tls@ufl.edu",
+            "institution": "University of Florida - CTSI"
+        },
+        {
+            "name": "Philip Chase",
+            "email": "pbc@ufl.edu",
+            "institution": "University of Florida - CTSI"
+        }
+    ],
+    "system-settings": [
+        {
+            "name": "Banner Text",
+            "key": "banner_text",
+            "type": "rich-text"
+        }
+    ],
+    "compatibility": {
+        "redcap-version-min": "9.1.1"
+    }
+}
