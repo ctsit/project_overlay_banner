@@ -27,8 +27,35 @@
     "system-settings": [
         {
             "name": "Banner Text",
-            "key": "banner_text",
+            "key": "global_banner_text",
             "type": "rich-text"
+        },
+        {
+            "name": "Allow custom project text?",
+            "key": "allow_project_banner_text",
+            "type": "checkbox"
+        },
+        {
+            "name": "Banner CSS",
+            "key": "global_banner_css",
+            "type": "textarea"
+        },
+        {
+            "name": "Allow custom project css?",
+            "key": "allow_project_banner_css",
+            "type": "checkbox"
+        }
+    ],
+    "project-settings": [
+        {
+            "name": "Banner Text",
+            "key": "project_banner_text",
+            "type": "rich-text"
+        },
+        {
+            "name": "Banner CSS",
+            "key": "project_banner_css",
+            "type": "textarea"
         }
     ],
     "compatibility": {

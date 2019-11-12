@@ -1,0 +1,22 @@
+#project-overlay-banner {
+    /* position and z-index cause the banner to appear to float over the page */
+    position: fixed;
+    z-index: 1000;
+
+    opacity: 0.8;
+
+    --bg-color: #ffb099;
+    background-color: var(--bg-color);
+
+    padding: 1%;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+#project-overlay-banner > p {
+    /* TODO: allow rich-text controls to accurately place text
+    Currently all are shifted right, default and left appear in center*/
+    margin: auto;
+}
