@@ -27,7 +27,7 @@ class ExternalModule extends AbstractExternalModule {
         $banner_css = $this->fallbackParam('banner_css');
 
         echo "<style> #project-overlay-banner { " . $banner_css . " } </style>";
-        echo "<script type='text/javascript'>var banner_text = $banner_text;</script>";
+        echo "<script type='text/javascript'>var project_overlay_banner_text = $banner_text;</script>";
     }
 
     protected function fallbackParam($param_name, $param_default = "") {
