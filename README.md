@@ -1,5 +1,7 @@
 # Project Overlay Banner
 
+[![DOI](https://zenodo.org/badge/218834753.svg)](https://zenodo.org/badge/latestdoi/218834753)
+
 A REDCap module to display a temporary overlay banner on a project to alert users that it is a training or other non-production project. This module is designed to be enabled and configured at the project-level where it is needed. It was created to reduce the risk of data entry in training projects that look and behave like the production project.
 
 ## Prerequisites
