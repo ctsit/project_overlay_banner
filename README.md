@@ -37,3 +37,8 @@ In its default configuration, the temporary banner looks like this:
 ![](img/default_banner.png)
 
 Upon clicking the banner, it will disappear and the page will function normally. At the next page load and at _every_ page load for a configured project, the banner will reappear.
+
+
+## Acknowledgments
+
+Many thanks to Greg Neils whose [Instance-Marker](https://github.com/biggeeves/Instance-Marker) module provided inspiration for this module.
